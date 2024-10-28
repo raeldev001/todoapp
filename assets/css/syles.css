@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+#container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.delete-button {
+    float: right;
+    clear: both;
+    background-color: red;
+    color: white;
+}
+#add-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 4px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
